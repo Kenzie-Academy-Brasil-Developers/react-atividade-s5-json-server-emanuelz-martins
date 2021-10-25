@@ -1,0 +1,42 @@
+{
+	"users": [
+		{
+			"email": "kenzinho@mail.com",
+			"password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+			"name": "Kenzinho",
+			"age": 38,
+			"id": 1
+		},
+		{
+			"email": "testman@thisapp.com",
+			"password": "$2a$10$n537amiHFPJEkB7VHciUTuQc5t58Uh4Ra0eQQ2fNOJwgNKlQ4ktAq",
+			"name": "Emanuel",
+			"age": 20,
+			"id": 2
+		},
+		{
+			"email": "thiapp@mail.com",
+			"password": "$2a$10$0ai2wdfMM5eLvsgnRALIu.kowF3VLmOEdG00ppMEX9kKKvY1HhCJO",
+			"name": "Carlinhos",
+			"age": 18,
+			"id": 3
+		}
+	],
+	"comics": [
+		{
+			"id": 1,
+			"owner_user": 2,
+			"type": "super_heroes",
+			"title": "A Piada Mortal"
+		}
+	],
+	"saved_comics": [
+		{
+			"id": 1,
+			"userId": 3,
+			"type": "super_heroes",
+			"title": "A Piada Mortal",
+			"comment": "Lorem Ipsum"
+		}
+	]
+}
